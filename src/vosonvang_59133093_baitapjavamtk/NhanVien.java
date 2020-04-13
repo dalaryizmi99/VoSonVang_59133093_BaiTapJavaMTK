@@ -32,7 +32,7 @@ public class NhanVien {
     public void setTen(String ten){
         this.ten = ten;
     }
-    public String setTen(){
+    public String getTen(){
         return ten;
     }
     public void setTuoi(int tuoi){
@@ -56,7 +56,7 @@ public class NhanVien {
     public void setSumGioLam(int sumgiolam){
         this.sumgiolam = sumgiolam;
     }
-    public int setSumGioLam(){
+    public int getSumGioLam(){
         return sumgiolam;
     }
 
